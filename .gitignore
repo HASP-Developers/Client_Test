@@ -1,0 +1,26 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+pull.cfg
+pull.cmd
+Puller.jar
+
+# Package Files #
+*.zip
+*.rar
+*.sql
+
+### HASP CNS Tool Server ###
+logs/
+appdata/
+userdata/
+cache/
+mysql/
+temp/
+pdf/
+exports/
+out/
+backups/
