@@ -4,9 +4,9 @@
 # Log file
 *.log
 
-pull.cfg
-pull.cmd
-Puller.jar
+# pull.cfg
+# pull.cmd
+# Puller.jar
 
 # Package Files #
 *.zip
