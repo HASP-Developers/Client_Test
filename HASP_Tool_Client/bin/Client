@@ -133,7 +133,7 @@ if $cygwin; then
   [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
 fi
 
-exec "$JAVACMD" $JAVA_OPTS -Xmx16G -Xms512M -Dstdout.encoding=UTF-8 \
+exec "$JAVACMD" $JAVA_OPTS -Xmx8G -Xms512m -Dstdout.encoding=UTF-8 \
   -classpath "$CLASSPATH" \
   -Dapp.name="Client" \
   -Dapp.pid="$$" \

@@ -98,7 +98,7 @@ if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
 @REM Reaching here means variables are defined and arguments have been captured
 :endInit
 
-%JAVACMD% %JAVA_OPTS% -Xmx16G -Xms512M -Dstdout.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="Client" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" com.hasp.start.Starter %CMD_LINE_ARGS%
+%JAVACMD% %JAVA_OPTS% -Xmx8G -Xms512m -Dstdout.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="Client" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" com.hasp.start.Starter %CMD_LINE_ARGS%
 if %ERRORLEVEL% NEQ 0 goto error
 goto end
 
