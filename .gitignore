@@ -13,6 +13,8 @@
 *.rar
 *.sql
 
+settings.cfg
+
 ### HASP CNS Tool Server ###
 logs/
 appdata/
